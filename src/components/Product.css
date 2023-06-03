@@ -1,0 +1,38 @@
+.product {
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: #373535;
+  color: #e7e4e4;
+  border-radius: 8px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.product:hover {
+
+  color: #373535;
+  background-color: #655a5a;
+
+  cursor: pointer;
+}
+.product h2,
+.product p {
+  margin: 0.5rem 0;
+}
+.price {
+  font-size: 1.2rem;
+  color: #bab6b6;
+}
+
+.product-action {
+  margin: auto 12px;
+}
+.product-action button {
+  margin-right: 8px;
+  padding: 12px;
+border-radius: 6px;
+color: #d38e1e;
+cursor: pointer;
+font-size: 16px;
+}
+
